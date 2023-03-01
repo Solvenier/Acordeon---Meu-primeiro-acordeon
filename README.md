@@ -9,13 +9,14 @@ EXPLICANDO O ACORDEON:
 
 COMO EU CRIEI O ACORDEON E O QUE APRENDI?
 
- -Eu aprendi com esse acordeon como usar eventListenners, que são usadas para quando um certo evento no meu site for disparado é para ocorrer ou não ocorrer alguma coisa
+  Eu aprendi com esse acordeon como usar eventListenners, que são usadas para quando um certo evento no meu site for disparado é para ocorrer ou não ocorrer alguma coisa
  nele, seja na parte lógica ou visual. 
- -Outra coisa muito importante que aprendi é como mexer com elementos do document, tirando e colocando classes e ids dos meus elementos HTML, para que eles tenham estilos
+  Outra coisa muito importante que aprendi é como mexer com elementos do document, tirando e colocando classes e ids dos meus elementos HTML, para que eles tenham estilos
  diferentes se certas ações ocorrerem no site.
- -Também aprendi como usar o forEach para trabalhar com vários elementos que possuem a mesma classe, para isso eu aprendi que se eu criar uma variável que é um array será
+  Também aprendi como usar o forEach para trabalhar com vários elementos que possuem a mesma classe, para isso eu aprendi que se eu criar uma variável que é um array será
  possível armazenar vários elementos iguais dentro dela, então será aberta a possibilidade de mexer com vários elementos iguais sem a necessidade de criar uma variável
  para cada elemento que eu quero manipular.
+ 
  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Tecnologias utilizadas:
 - HTML;
