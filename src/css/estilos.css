@@ -1,0 +1,79 @@
+main {
+    background-color: #E5E5E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+}
+
+.acordeon {
+    height: 347px;
+    width: 655px;
+    border-radius: 20px;
+    background-color: #FCFCFC;
+    position: absolute;
+    display: flex;
+    align-items: center ;
+}
+
+.acordeon .ilustracao {
+    position: absolute;
+    left: -90px;
+}
+
+.acordeon .conteudo {
+    margin: 60px 0;
+    margin-left: 220px;
+    width: 100%;
+}
+
+.acordeon .conteudo .titulo {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.acordeon .conteudo .itens {
+   width: 100%;
+}
+
+.acordeon .conteudo .itens .item {
+    background-repeat: no-repeat;
+    background-image: url(../images/icone-seta-fechada.png);
+    background-position: top 5px right 0;
+    border-bottom: 2px solid #D4D4D4;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    width: 90%;
+}
+
+.acordeon .conteudo .itens .item:last-child {
+    border-bottom: none;
+}
+
+.acordeon .conteudo .item .pergunta {
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.acordeon .conteudo .item .pergunta:hover {
+    color: coral;
+}
+
+.acordeon .conteudo .item .resposta {
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 10px;
+    display: none;
+}
+
+.acordeon .conteudo .item.ativo .resposta {
+    display: block;
+}
+
+.acordeon .conteudo .item.ativo {
+    background-image: url(../images/icone-seta-aberta.png);
+}
